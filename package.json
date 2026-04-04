@@ -1,33 +1,26 @@
 {
-  "name": "visual-active-effects",
   "version": "1.0.0",
-  "description": "Visual Active Effects",
   "scripts": {
-    "db:unpack": "node tools/pack-level-db.mjs package unpack",
-    "db:pack": "node tools/pack-level-db.mjs package pack",
-    "build": "rollup -c",
     "createSymlinks": "node ./tools/create-symlinks.mjs",
+    "build": "npm run build:code",
+    "build:code": "rollup -c",
     "postinstall": "npm run createSymlinks"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/krbz999/visual-active-effects.git"
-  },
-  "keywords": [
-    "fvtt",
-    "module"
-  ],
   "author": "Zhell",
-  "bugs": {
-    "url": "https://github.com/krbz999/visual-active-effects"
-  },
-  "homepage": "https://github.com/krbz999/visual-active-effects",
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "@eslint/js": "^9.27.0",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
     "@html-eslint/eslint-plugin": "^0.26.0",
     "@html-eslint/parser": "^0.26.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "eslint": "^8.57.0",
-    "rollup": "^4.9.1"
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@stylistic/eslint-plugin": "^4.3.0",
+    "eslint": "^9.27.0",
+    "postcss": "^8.5.6",
+    "postcss-import": "^16.1.0",
+    "rollup": "^4.9.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "showdown": "^2.1.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
   }
 }
