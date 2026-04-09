@@ -1,9 +1,7 @@
 {
-  "VISUAL_ACTIVE_EFFECTS.LABELS.DETAILS": "Detalhes",
   "VISUAL_ACTIVE_EFFECTS.LABELS.DISABLED": "Desabilitado",
   "VISUAL_ACTIVE_EFFECTS.LABELS.PASSIVE": "Passivo",
   "VISUAL_ACTIVE_EFFECTS.LABELS.SOURCE": "Origem",
-  "VISUAL_ACTIVE_EFFECTS.LABELS.TEMPORARY": "Temporário",
   "VISUAL_ACTIVE_EFFECTS.SETTINGS.FONT_SIZE.HINT": "Altere o tamanho da fonte do texto nos efeitos. Padrão: 16.",
   "VISUAL_ACTIVE_EFFECTS.SETTINGS.FONT_SIZE.NAME": "Tamanho da Fonte",
   "VISUAL_ACTIVE_EFFECTS.SETTINGS.HIDE_DISABLED.HINT": "Se ativado, quaisquer efeitos desativados não aparecerão.",
@@ -23,28 +21,5 @@
     "NAME": "Espaçamento à Direita",
     "HINT": "Altere o espaço entre o diretório do lado direito e o painel. Padrão: 50."
   },
-  "VISUAL_ACTIVE_EFFECTS.TIME.DAY": "1 dia",
-  "VISUAL_ACTIVE_EFFECTS.TIME.DAYS": "{qty} dias",
-  "VISUAL_ACTIVE_EFFECTS.TIME.EXPIRED": "Expirado",
-  "VISUAL_ACTIVE_EFFECTS.TIME.HOUR": "1 hora",
-  "VISUAL_ACTIVE_EFFECTS.TIME.HOURS": "{qty} horas",
-  "VISUAL_ACTIVE_EFFECTS.TIME.MINUTE": "1 minuto",
-  "VISUAL_ACTIVE_EFFECTS.TIME.MINUTES": "{qty} minutos",
-  "VISUAL_ACTIVE_EFFECTS.TIME.SECOND": "1 segundo",
-  "VISUAL_ACTIVE_EFFECTS.TIME.SECONDS": "{qty} segundos",
-  "VISUAL_ACTIVE_EFFECTS.TIME.TURN": "1 turno",
-  "VISUAL_ACTIVE_EFFECTS.TIME.TURNS": "{qty} turnos",
-  "VISUAL_ACTIVE_EFFECTS.TIME.UNLIMITED": "Ilimitado",
-  "VISUAL_ACTIVE_EFFECTS.TIME.WEEK": "1 semana",
-  "VISUAL_ACTIVE_EFFECTS.TIME.WEEKS": "{qty} semanas",
-  "VISUAL_ACTIVE_EFFECTS.TIME.YEAR": "1 ano",
-  "VISUAL_ACTIVE_EFFECTS.TIME.YEARS": "{qty} anos",
-  "VISUAL_ACTIVE_EFFECTS.Inclusion": {
-    "Title": "Inclusão: {name}",
-    "Label": "Inclusão",
-    "Default": "Padrão",
-    "Include": "Sempre Incluído",
-    "Exclude": "Sempre Incluído",
-    "Hint": "Selecione se deseja forçar a inclusão ou exclusão deste efeito no painel de efeitos superior direito."
-  }
+  "VISUAL_ACTIVE_EFFECTS.TIME.UNLIMITED": "Ilimitado"
 }
